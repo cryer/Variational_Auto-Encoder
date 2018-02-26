@@ -10,4 +10,4 @@ class Config(object):
     num_workers = 2
     lr=1e-3
     use_gpu=True
-    epoch = 20
+    epoch = 50
