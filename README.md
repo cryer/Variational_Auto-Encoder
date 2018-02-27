@@ -39,8 +39,8 @@ Run code below:
 
 ```
 git clone https://github.com/cryer/Variational_Auto-Encoder.git
-pip install -r requirements.txt
 cd Variational_Auto-Encoder
+pip install -r requirements.txt
 python run_vae.py train --download=True
 ```
 Then it will download MNIST datasets online and start to train your VAE model.To conveying a kind of directly perceived feeling,
@@ -62,8 +62,8 @@ Just refer to official implementation.
 After downloading and processing,then run code below,remember to put  data in right directory(t10k-images-idx3-ubyte in raw,.pb files in  processed).
 ```
 git clone https://github.com/cryer/Variational_Auto-Encoder.git
-pip install -r requirements.txt
 cd Variational_Auto-Encoder
+pip install -r requirements.txt
 python run_vae.py train --download=False
 ```
 All configs are:
