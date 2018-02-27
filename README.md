@@ -38,8 +38,8 @@ Go to see concerned papers for more details about VAE and GAN.
 Run code below:
 
 ```
-pip install -r requirements.txt
 git clone https://github.com/cryer/Variational_Auto-Encoder.git
+pip install -r requirements.txt
 cd Variational_Auto-Encoder
 python run_vae.py train --download=True
 ```
@@ -61,8 +61,8 @@ Just refer to official implementation.
 
 After downloading and processing,then run code below,remember to put  data in right directory(t10k-images-idx3-ubyte in raw,.pb files in  processed).
 ```
-pip install -r requirements.txt
 git clone https://github.com/cryer/Variational_Auto-Encoder.git
+pip install -r requirements.txt
 cd Variational_Auto-Encoder
 python run_vae.py train --download=False
 ```
